@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 157, 45);
+}
+
+
+h1 {
+    text-align: left;
+    font-family: "Fredericka the Great", cursive;
+    margin: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: "Space Mono", monospace;
+    margin: 10px;
+    text-align: center;
+}
+h4 {
+    padding-top: 20px;
+    font-family: "Fredericka the Great", cursive;
+    margin: 10px;
+    text-align: center;
+}
+
+.main {
+    margin: 5px;
+    padding: 10px;
+
+    }
+/* .opening {
+    animation: pulse 7s;
+}
+    @keyframes pulse {
+    0% {
+    background-color: rgb(119, 37, 14);
+    }
+    100% {
+    background-color: rgb(226, 157, 45);
+    }
+    } */
+
+.inputfield {
+    padding: 5px;
+    font-family: "Space Mono", monospace;
+}
+
+.rap {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.file {
+    padding: 10px;
+    font-family: "Fredericka the Great", cursive;
+}
+
+button {
+    padding: 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: "Fredericka the Great", cursive;
+}
+
+button:hover {
+    background: rgb(140, 81, 9);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+
+.morebtn {
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.morebtn:hover {
+    background: rgb(140, 81, 9);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s linear;
+    margin-top: 35px;
+}
+
+.img {
+    max-width: 300px;
+    height: 300px;
+    margin: 10px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+    font-weight: bold;
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    }
+
+.img img {
+    height: 230px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.img p {
+    padding-left: 5px;
+    margin: 3px;
+    font-family: "Space Mono", monospace;
+}
+
+.popOut {
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 5%;
+    background-color: lightblue;
+}
+
+
+.photo {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+.one {
+    text-align: center;
+    font-family: "Fredericka the Great", cursive;
+    font-size: 28px;
+    background-color: lightblue;
+}
+
+.two {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+.three {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    font-size: 10px;
+    background-color: lightblue;
+}
+
+.comments {
+    font-family: "Space Mono", monospace;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    }
+
+.commentsbox {
+    margin-top: 5px;
+    background-color: rgb(204, 98, 18);
+    border: black 2px solid;
+}
+
+.four {
+    background-color: rgb(204, 98, 18);
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+    padding-left: 8px;
+}
+
+.five {
+    font-size: 8px;
+    padding-left: 8px;
+}
+
+
+
+footer {
+    font-family: "Space Mono", monospace;
+    margin-left: 20px;
+    opacity: 0.5;
+    margin-top: 20px;
+
+}
